@@ -26,6 +26,21 @@ const Dropdownlist = () => {
           />
         </div>
       </div>
+      {isOpen && (
+        <ul className="dropdown">
+          {["Most Recent", "Most liked", "Most Viewed"].map((option) => (
+            <li
+              key={option}
+              className="list-item"
+              onClick={() => {
+                setIsOpen(false);
+              }}
+            >
+              {option}
+            </li>
+          ))}
+        </ul>
+      )}
     </div>
   );
 };

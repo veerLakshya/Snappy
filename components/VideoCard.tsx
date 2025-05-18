@@ -27,7 +27,7 @@ const VideoCard = ({
         <div>
           <figure>
             <Image
-              src={userImg}
+              src={userImg || "/assets/images/dummy.png"}
               alt="user"
               width={34}
               height={34}

@@ -1,0 +1,6 @@
+{
+  "databaseURL": "https://lakshya-singh-s-workspace-q1gf6v.eu-central-1.xata.sh/db/snappy",
+  "codegen": {
+    "output": "src/xata.ts"
+  }
+}
